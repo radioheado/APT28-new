@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Ontology version="2">
 <Instances>
-<Instance name="Sofacy the Group start time">
+<Instance name="connection1">
       <DirectSuperConcepts>
-        <ConceptReference name="time" />
+        <ConceptReference name="user instance" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -11,26 +11,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Sofacy the Group start time" />
-            </OntologyEntity>
-          </Fragments>
-        </NLPattern>
-        <NLPattern>
-          <Fragments />
-        </NLPattern>
-      </NLInfo>
-    </Instance>
-<Instance name="Sofacy the malware end time">
-      <DirectSuperConcepts>
-        <ConceptReference name="time" />
-      </DirectSuperConcepts>
-      <documentation value="" />
-      <NLInfo>
-        <LexicalInfo />
-        <NLPattern>
-          <Fragments>
-            <OntologyEntity>
-              <InstanceReference name="Sofacy the malware end time" />
+              <InstanceReference name="connection1" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -58,9 +39,9 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="connection1">
+<Instance name="Sofacy the malware end time">
       <DirectSuperConcepts>
-        <ConceptReference name="user instance" />
+        <ConceptReference name="time" />
       </DirectSuperConcepts>
       <documentation value="" />
       <NLInfo>
@@ -68,7 +49,45 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="connection1" />
+              <InstanceReference name="Sofacy the malware end time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sofacy the Group start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sofacy the Group start time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Zebrocy">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Zebrocy" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -88,6 +107,196 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Sofacy the malware" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="TG-4127">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="TG-4127" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Threat Group-4127">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Threat Group-4127" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Tsar Team">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Tsar Team" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="STRONTIUM">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="STRONTIUM" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Fancy Bear">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Fancy Bear" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Pawn Storm">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Pawn Storm" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sednit">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sednit" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Group 74">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Group 74" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Swallowtail">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Swallowtail" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="SNAKEMACKEREL">
+      <DirectSuperConcepts>
+        <ConceptReference name="APT28" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="SNAKEMACKEREL" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -118,57 +327,30 @@
 </Instances>
 <Facts>
 <Fact>
-      <FeatureReference name="has as end time" />
+      <FeatureReference name="has as attack stage" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Sofacy the malware end time" />
+        <OntologyString>first stage</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as start time" />
+      <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sofacy the Group" />
+        <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Sofacy the Group start time" />
+        <OntologyString>Zekapab</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as start time" />
+      <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Sofacy the malware start time" />
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sofacy the malware end time" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>2012</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sofacy the Group start time" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>2008</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as external name" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sofacy the malware start time" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>2011</OntologyString>
+        <OntologyString>Sofacy</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -184,18 +366,90 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sofacy the malware" />
+        <InstanceReference name="Sofacy the malware start time" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Sofacy</OntologyString>
+        <OntologyString>2011</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
-      <FeatureReference name="has as attack stage" />
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sofacy the Group start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2008</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sofacy the malware end time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2012</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>first stage</OntologyString>
+        <InstanceReference name="Sofacy the malware start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sofacy the Group" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sofacy the Group start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as end time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sofacy the malware" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sofacy the malware end time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as contributor" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="SNAKEMACKEREL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Russian military intelligence service (RIS)</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as target" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="SNAKEMACKEREL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>United Kingdom Foreign and Commonwealth Office (FCO)</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as target" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="SNAKEMACKEREL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>United Kingdom Defence and Science Technology Laboratory (DSTL)</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as target" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="SNAKEMACKEREL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Organisation for the Prohibition of Chemical Weapons (OPCW)</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 </Facts>
