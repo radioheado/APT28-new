@@ -4,6 +4,25 @@
 <ConceptAdditionalInfo name="object">
       <DirectSuperConcepts />
     </ConceptAdditionalInfo>
+<Concept name="contributor">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="contributor" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
 <Concept name="time">
       <DirectSuperConcepts>
         <ConceptReference name="object" />
@@ -1195,6 +1214,25 @@
         </NLPattern>
       </NLInfo>
     </Concept>
+<Concept name="dropper file">
+      <DirectSuperConcepts>
+        <ConceptReference name="file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="dropper file" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
 <Concept name="lure document">
       <DirectSuperConcepts>
         <ConceptReference name="file" />
@@ -1672,6 +1710,674 @@
       <DirectSuperFeatures />
       <DomainNegativeExamples />
     </FeatureAdditionalInfo>
+<Feature name="has as excutable">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="temporary file" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as excutable" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as compilation date">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as compilation date" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as file type">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as file type" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as payload">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="dropper file" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as payload" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as component">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as component" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as modified date">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="lure document" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as modified date" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as creation date">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="lure document" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as creation date" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as company">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="lure document" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicEmptyBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as company" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as file size">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as file size" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
+<Feature name="has as programming language">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <AnyStringBound />
+          </LowerBound>
+          <UpperBound>
+            <AnyStringBound />
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+        <Properties>
+          <FormalParameterReference name="&lt;P1>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as programming language" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
 <Feature name="has as target">
       <DirectSuperFeatures>
         <FeatureReference name="feature" />
@@ -1752,7 +2458,7 @@
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
             <ClassicConceptLowerBound>
-              <ConceptReference name="APT28" />
+              <ConceptReference name="object" />
             </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
@@ -1767,7 +2473,7 @@
             <AnyStringBound />
           </LowerBound>
           <UpperBound>
-            <AnyStringBound />
+            <AnyElementBound />
           </UpperBound>
         </ParameterClassicPVSDomain>
       </MultiVariableCondition>
@@ -2471,18 +3177,20 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
-              <ConceptReference name="program" />
+              <ConceptReference name="object" />
             </ClassicConceptBound>
           </UpperBound>
         </ParameterClassicPVSDomain>
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P2>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <AnyStringBound />
           </LowerBound>
           <UpperBound>
             <AnyStringBound />
@@ -3131,7 +3839,9 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="lure document" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
@@ -3142,11 +3852,13 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P2>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="dynamic domain address" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
-              <ConceptReference name="domain" />
+              <ConceptReference name="object" />
             </ClassicConceptBound>
           </UpperBound>
         </ParameterClassicPVSDomain>

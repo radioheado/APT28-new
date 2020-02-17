@@ -4001,7 +4001,7 @@
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
-                    <ConceptReference name="domain" />
+                    <ConceptReference name="object" />
                   </ClassicConceptBound>
                 </UpperBound>
               </ParameterClassicPVSDomain>

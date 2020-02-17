@@ -77,6 +77,63 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Joohn">
+      <DirectSuperConcepts>
+        <ConceptReference name="contributor" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Joohn" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="ntslwin2">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="ntslwin2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="ntslwin1">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="ntslwin1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Zebrocy">
       <DirectSuperConcepts>
         <ConceptReference name="malware" />
@@ -107,6 +164,82 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Sofacy the malware" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="de03fc12a">
+      <DirectSuperConcepts>
+        <ConceptReference name="temporary file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="de03fc12a" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Brexit 2018">
+      <DirectSuperConcepts>
+        <ConceptReference name="lure document" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Brexit 2018" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="templates">
+      <DirectSuperConcepts>
+        <ConceptReference name="dropper file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="templates" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="attachedTemplate">
+      <DirectSuperConcepts>
+        <ConceptReference name="dropper file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="attachedTemplate" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -324,8 +457,45 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Zebrocy domain">
+      <DirectSuperConcepts>
+        <ConceptReference name="dynamic domain address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Zebrocy domain" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 </Instances>
 <Facts>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
 <Fact>
       <FeatureReference name="has as attack stage" />
       <ConstantInstantiatedFormalParameters>
@@ -333,6 +503,105 @@
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as URL" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="templates" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>http://109.248.148.42/officeDocument/2006/relationships/templates.dotm</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as URL" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="attachedTemplate" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>http://109.248.148.42/office/thememl/2012/main/attachedTemplate.dotm</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as URL" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>http://109.248.148.42/office/thememl/2012/main/attachedTemplate.dotm</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ntslwin.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="de03fc12a" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>~de03fc12a.docm</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ntslwin.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="templates" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>templates.dotm</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="attachedTemplate" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>attachedTemplate.dotm</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>109.248.148.42</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Joohn" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Joohn</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Brexit 15.11.2018.docx</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -390,6 +659,15 @@
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
+      <FeatureReference name="has as domain" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy domain" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
       <FeatureReference name="has as start time" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
@@ -414,6 +692,78 @@
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Sofacy the malware end time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>a13c864980159cd9bdc94074b2389dda</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="de03fc12a" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>9d703d31795bac83c4dd90527d149796
+</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>7e67122d3a052e4755b02965e2e56a2e</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="templates" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2a794b55b839b3237482098957877326</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="attachedTemplate" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>018611b879b2bbd886e86b62484494da</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>405655be03df45881aa88b55603bef1d</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as contributor" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="Joohn" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -450,6 +800,231 @@
         <InstanceReference name="SNAKEMACKEREL" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>Organisation for the Prohibition of Chemical Weapons (OPCW)</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>.NET</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Delphi</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>.NET</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Delphi</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file size" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>32768 bytes</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file size" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="de03fc12a" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>24659 bytes</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file size" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>393216 bytes</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file size" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="templates" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>1228358 bytes</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file size" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="attachedTemplate" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>1612982 bytes</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file size" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>19354 bytes</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as company" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Grizli777</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as creation date" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2018:11:14 14:17:00</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as modified date" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Brexit 2018" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2018:11:15 04:50:00</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as component" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="ntslwin1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as component" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="templates" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as component" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="attachedTemplate" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as payload" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="templates" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="de03fc12a" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as payload" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="templates" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="ntslwin2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as payload" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="attachedTemplate" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="de03fc12a" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as payload" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="attachedTemplate" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="ntslwin1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file type" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as file type" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>UPX compressed Win32 Executable</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as compilation date" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="ntslwin2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2018-11-13 10:45:42</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as excutable" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="de03fc12a" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="ntslwin2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as excutable" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="de03fc12a" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="ntslwin1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 </Facts>
