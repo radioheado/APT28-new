@@ -6430,7 +6430,7 @@
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
-                    <ConceptReference name="data file" />
+                    <ConceptReference name="file system object" />
                   </ClassicConceptBound>
                 </UpperBound>
               </ParameterClassicPVSDomain>
@@ -6592,7 +6592,7 @@
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
-                    <ConceptReference name="library file" />
+                    <ConceptReference name="file system object" />
                   </ClassicConceptBound>
                 </UpperBound>
               </ParameterClassicPVSDomain>

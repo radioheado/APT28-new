@@ -20,6 +20,234 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Zebrocy Registry value2">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry value" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Zebrocy Registry value2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Zebrocy Registry value1">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry value" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Zebrocy Registry value1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Zebrocy Registry key2">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry key" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Zebrocy Registry key2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Zebrocy Registry key1">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry key" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Zebrocy Registry key1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xtunnel domain end time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xtunnel domain end time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xtunnel domain start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xtunnel domain start time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xtunnel end time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xtunnel end time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xtunnel start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xtunnel start time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco end time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco end time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco start time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xagent start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xagent start time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sednit start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sednit start time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Sofacy the malware start time">
       <DirectSuperConcepts>
         <ConceptReference name="time" />
@@ -88,6 +316,177 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Joohn" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="advshellstore DLL">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="advshellstore DLL" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xagent DLL3">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xagent DLL3" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xagent DLL2">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xagent DLL2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xagent DLL1">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xagent DLL1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco DLL">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco DLL" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="lg3">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="lg3" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xtunnel">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xtunnel" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xagent">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xagent" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -172,6 +571,44 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Sedreco data file2">
+      <DirectSuperConcepts>
+        <ConceptReference name="data file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco data file2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco data file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="data file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco data file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="de03fc12a">
       <DirectSuperConcepts>
         <ConceptReference name="temporary file" />
@@ -183,6 +620,25 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="de03fc12a" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="South Africa MFA document">
+      <DirectSuperConcepts>
+        <ConceptReference name="lure document" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="South Africa MFA document" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -210,7 +666,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="templates">
+<Instance name="Zebrocy dropper2">
       <DirectSuperConcepts>
         <ConceptReference name="dropper file" />
       </DirectSuperConcepts>
@@ -220,7 +676,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="templates" />
+              <InstanceReference name="Zebrocy dropper2" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -229,7 +685,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="attachedTemplate">
+<Instance name="Zebrocy dropper1">
       <DirectSuperConcepts>
         <ConceptReference name="dropper file" />
       </DirectSuperConcepts>
@@ -239,7 +695,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="attachedTemplate" />
+              <InstanceReference name="Zebrocy dropper1" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -457,6 +913,44 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Xagent C2 server domain name">
+      <DirectSuperConcepts>
+        <ConceptReference name="dynamic domain address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xagent C2 server domain name" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xtunnel domain">
+      <DirectSuperConcepts>
+        <ConceptReference name="dynamic domain address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xtunnel domain" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Zebrocy domain">
       <DirectSuperConcepts>
         <ConceptReference name="dynamic domain address" />
@@ -478,6 +972,42 @@
     </Instance>
 </Instances>
 <Facts>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>pivot malware</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>second stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>second stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
 <Fact>
       <FeatureReference name="has as attack stage" />
       <ConstantInstantiatedFormalParameters>
@@ -506,10 +1036,28 @@
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
+      <FeatureReference name="has as external name matching" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>95.215.46.27</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name matching" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>46.183.216.209</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
       <FeatureReference name="has as URL" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="templates" />
+        <InstanceReference name="Zebrocy dropper2" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>http://109.248.148.42/officeDocument/2006/relationships/templates.dotm</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -518,7 +1066,7 @@
       <FeatureReference name="has as URL" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="attachedTemplate" />
+        <InstanceReference name="Zebrocy dropper1" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>http://109.248.148.42/office/thememl/2012/main/attachedTemplate.dotm</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -530,6 +1078,330 @@
         <InstanceReference name="Brexit 2018" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>http://109.248.148.42/office/thememl/2012/main/attachedTemplate.dotm</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as specific string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco data file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>0xB2745DAF</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as specific string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco data file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>0x75DF9115</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="advshellstore DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>advshellstore.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent DLL3" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>api-ms-win-downlevel-profile-l1-1-0.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="lg3" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>lg3.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent DLL2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>splm.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent DLL1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>rwte.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent C2 server domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>advpdxapi.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent C2 server domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>inteldrv64.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent C2 server domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>timezoneutc.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent C2 server domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>microsoftsupp.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent C2 server domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ciscohelpcenter.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel domain end time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>mid 2015</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel domain start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Aug 2013</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>176.31.112.10</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel end time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Aug 2016</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>May 2013</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Trojan.Shunnael</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>XAPS</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>msdeltemp.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco data file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>__4964tmp.dat</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco data file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>__2315tmp.dat</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco end time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Aug 2016</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>May 2012</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>NETUI</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>EVILTOSS</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>AZZY</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ADVSTORESHELL</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Nov 2012</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>CHOPSTICK</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>SPLM</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2004</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry value2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>%AppData%\Platform\sslwin.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\GoogleIndexer</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry value1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>%AppData%\Video\videodrv.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>HKCU\Software\Microsoft\Windows\CurrentVersion\Run\AudioMgr</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -563,7 +1435,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="templates" />
+        <InstanceReference name="Zebrocy dropper2" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>templates.dotm</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -572,7 +1444,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="attachedTemplate" />
+        <InstanceReference name="Zebrocy dropper1" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>attachedTemplate.dotm</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -662,9 +1534,225 @@
       <FeatureReference name="has as domain" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent C2 server domain name" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as domain" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xtunnel domain" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as domain" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Brexit 2018" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Zebrocy domain" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as IP address mapping" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent C2 server domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent C2 server IP address" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>iOS/XAgent.B</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>iOS/XAgent.A</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win64/Agent.EZ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win64/Agent.ED</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XWX</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XVD</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XPZ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XPY</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XIP</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XIO</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.WLF</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.VQQ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Linux/Fysbis</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.WGJ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco data file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>%TEMP%</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco data file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>%TEMP%</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xtunnel domain start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xtunnel start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sednit start time" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -689,9 +1777,279 @@
       <FeatureReference name="has as end time" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel domain" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xtunnel domain end time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as end time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xtunnel" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xtunnel end time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as end time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco end time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as end time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Sofacy the malware end time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>AZZYMTX</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>MutYzAz</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>AgentKernel</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="advshellstore DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>A96F4B8AC7AA9DBF4624424B7602D4F7</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>f080e509c988a9578862665b4fcf1e4bf8d77c3e</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ecdda7aca5c805e5be6e0ab2017592439de7e32c</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>9444d2b29c6401bc7c2d14f071b11ec9014ae040</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>7e33a52e53e85ddb1dc8dc300e6558735acf10ce</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>f1ee563d44e2b1020b7a556e080159f64f3fd699</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>e816ec78462b5925a1f3ef3cdb3cac6267222e72</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d0db619a7a160949528d46d20fc0151bf9775c32</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d00ac5498d0735d5ae0dea42a1f477cf8b8b0826</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>c2e8c584d5401952af4f1db08cf4b6016874ddac</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>c18edcba2c31533b7cdb6649a970dce397f4b13c</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>baa4c177a53cfa5cc103296b07b62565e1c7799f</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>a70ed3ae0bc3521e743191259753be945972118b</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>780aa72f0397cb6c2a78536201bd9db4818fa02a</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>71636e025fa308fc5b8065136f3dd692870cb8a4</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>5f05a8cb6fef24a91b3bd6c137b23ab3166f39ae</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>4bc32a3894f64b4be931ff20390712b4ec605488</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>4b74c90c9d9ce7668aa9eb09978c1d8d4dfda24a</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>499ff777c88aeacbbaa47edde183c944ac7e91d2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>3403519fa3ede4d07fb4c05d422a9f8c026cedbf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>0f04dad5194f97bb4f1808df19196b04b4aee1b8</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>08c4d755f14fd6df76ec86da6eab1b5574dfbafd</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>082141f1c24fb49981cc70a9ed50cda582ee04dd</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>072933fa35b585511003f36e3885563e1b55d55a</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -726,7 +2084,7 @@
       <FeatureReference name="has as MD5 hash" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="templates" />
+        <InstanceReference name="Zebrocy dropper2" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>2a794b55b839b3237482098957877326</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -735,7 +2093,7 @@
       <FeatureReference name="has as MD5 hash" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="attachedTemplate" />
+        <InstanceReference name="Zebrocy dropper1" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>018611b879b2bbd886e86b62484494da</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -747,6 +2105,42 @@
         <InstanceReference name="Brexit 2018" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>405655be03df45881aa88b55603bef1d</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as data file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco data file1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as data file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco data file2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as Registry key" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy Registry key2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as Registry key" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy Registry key1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -800,6 +2194,33 @@
         <InstanceReference name="SNAKEMACKEREL" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>Organisation for the Prohibition of Chemical Weapons (OPCW)</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>C++</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>.NET</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Delphi</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -869,7 +2290,7 @@
       <FeatureReference name="has as file size" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="templates" />
+        <InstanceReference name="Zebrocy dropper2" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>1228358 bytes</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -878,7 +2299,7 @@
       <FeatureReference name="has as file size" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="attachedTemplate" />
+        <InstanceReference name="Zebrocy dropper1" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>1612982 bytes</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -925,6 +2346,15 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="ntslwin2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as component" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="ntslwin1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
@@ -934,7 +2364,7 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy domain" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="templates" />
+        <InstanceReference name="Zebrocy dropper2" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -943,14 +2373,14 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy domain" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="attachedTemplate" />
+        <InstanceReference name="Zebrocy dropper1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as payload" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="templates" />
+        <InstanceReference name="Zebrocy dropper2" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="de03fc12a" />
       </ConstantInstantiatedFormalParameters>
@@ -959,7 +2389,7 @@
       <FeatureReference name="has as payload" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="templates" />
+        <InstanceReference name="Zebrocy dropper2" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="ntslwin2" />
       </ConstantInstantiatedFormalParameters>
@@ -968,7 +2398,7 @@
       <FeatureReference name="has as payload" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="attachedTemplate" />
+        <InstanceReference name="Zebrocy dropper1" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="de03fc12a" />
       </ConstantInstantiatedFormalParameters>
@@ -977,7 +2407,7 @@
       <FeatureReference name="has as payload" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="attachedTemplate" />
+        <InstanceReference name="Zebrocy dropper1" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="ntslwin1" />
       </ConstantInstantiatedFormalParameters>
@@ -998,6 +2428,15 @@
         <InstanceReference name="ntslwin1" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>UPX compressed Win32 Executable</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as compilation date" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="advshellstore DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>July 29th, 2015</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -1025,6 +2464,150 @@
         <InstanceReference name="de03fc12a" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="ntslwin1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as registry value" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy Registry value2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as registry value" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy Registry value1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as URI pattern" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>/update</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as URI pattern" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>/agr-enum/progress-inform/cube.php?res=</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sofacy the Group" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sofacy the malware" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="lg3" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent DLL2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent DLL1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xtunnel" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="SNAKEMACKEREL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as lure file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Brexit 2018" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as dropper" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy dropper2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as dropper" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Zebrocy dropper1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as downloader" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco DLL" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 </Facts>
