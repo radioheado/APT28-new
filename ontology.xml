@@ -1756,7 +1756,7 @@
           <FormalParameterReference name="&lt;P2>" />
           <LowerBound>
             <ClassicConceptLowerBound>
-              <ConceptReference name="DLL" />
+              <ConceptReference name="program" />
             </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
@@ -1813,7 +1813,7 @@
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
             <ClassicConceptLowerBound>
-              <ConceptReference name="object" />
+              <ConceptReference name="malware" />
             </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
@@ -3492,7 +3492,9 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
@@ -3503,11 +3505,13 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P2>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="temporary file" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
-              <ConceptReference name="temporary file" />
+              <ConceptReference name="object" />
             </ClassicConceptBound>
           </UpperBound>
         </ParameterClassicPVSDomain>

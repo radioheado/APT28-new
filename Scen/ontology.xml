@@ -96,6 +96,25 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Seduploader start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader start time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Xtunnel domain end time">
       <DirectSuperConcepts>
         <ConceptReference name="time" />
@@ -324,7 +343,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="advshellstore DLL">
+<Instance name="Sedreco DLL2">
       <DirectSuperConcepts>
         <ConceptReference name="DLL" />
       </DirectSuperConcepts>
@@ -334,7 +353,7 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="advshellstore DLL" />
+              <InstanceReference name="Sedreco DLL2" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -400,7 +419,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Sedreco DLL">
+<Instance name="Sedreco DLL1">
       <DirectSuperConcepts>
         <ConceptReference name="DLL" />
       </DirectSuperConcepts>
@@ -410,7 +429,45 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Sedreco DLL" />
+              <InstanceReference name="Sedreco DLL1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Seduploader">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedkit">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedkit" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -609,6 +666,63 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Seduploader temporary file3">
+      <DirectSuperConcepts>
+        <ConceptReference name="temporary file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader temporary file3" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Seduploader temporary file2">
+      <DirectSuperConcepts>
+        <ConceptReference name="temporary file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader temporary file2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Seduploader temporary file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="temporary file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader temporary file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="de03fc12a">
       <DirectSuperConcepts>
         <ConceptReference name="temporary file" />
@@ -658,6 +772,25 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Brexit 2018" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Xagent dropper1">
+      <DirectSuperConcepts>
+        <ConceptReference name="dropper file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Xagent dropper1" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -913,6 +1046,25 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Sedkit domain name">
+      <DirectSuperConcepts>
+        <ConceptReference name="dynamic domain address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedkit domain name" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Xagent C2 server domain name">
       <DirectSuperConcepts>
         <ConceptReference name="dynamic domain address" />
@@ -976,6 +1128,15 @@
       <FeatureReference name="has as attack stage" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Xtunnel" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>pivot malware</OntologyString>
@@ -1033,6 +1194,24 @@
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name matching" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>JKEYSKW</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name matching" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>JHUHUGIT</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -1102,7 +1281,97 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="advshellstore DLL" />
+        <InstanceReference name="Seduploader temporary file3" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>jkeyskw.temp</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader temporary file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>jhuhugit.tmp</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader temporary file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>jhuhugit.temp</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>March 2015</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>unian-news.info</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>reuters-press.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>worldpostjournal.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>worldpoliticsreviews.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>theguardiannews.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent dropper1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>runrun.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco DLL2" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>advshellstore.dll</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -1255,7 +1524,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sedreco DLL" />
+        <InstanceReference name="Sedreco DLL1" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>msdeltemp.dll</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -1714,6 +1983,15 @@
       <FeatureReference name="has as start time" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Xtunnel domain" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Xtunnel domain start time" />
@@ -1840,7 +2118,7 @@
       <FeatureReference name="has as MD5 hash" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="advshellstore DLL" />
+        <InstanceReference name="Sedreco DLL2" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>A96F4B8AC7AA9DBF4624424B7602D4F7</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -2108,6 +2386,33 @@
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
+      <FeatureReference name="has as temporary file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader temporary file3" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as temporary file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader temporary file1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as temporary file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader temporary file2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
       <FeatureReference name="has as data file" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
@@ -2167,6 +2472,33 @@
         <InstanceReference name="SNAKEMACKEREL" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>Russian military intelligence service (RIS)</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as target" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>French television network TV5Monde</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as target" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>German parliament</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as target" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>American Democratic National Committee</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2380,6 +2712,15 @@
       <FeatureReference name="has as payload" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent dropper1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent DLL3" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as payload" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy dropper2" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="de03fc12a" />
@@ -2434,7 +2775,7 @@
       <FeatureReference name="has as compilation date" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="advshellstore DLL" />
+        <InstanceReference name="Sedreco DLL2" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>July 29th, 2015</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -2488,6 +2829,15 @@
       <FeatureReference name="has as URI pattern" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>xmlHttp.open("POST", "/tlPDH/DoHK/oZx0/65902/9751/?adv=4792&amp;w1=cwXqTKEaLT&amp;p1=14846 44566&amp;pls=ES3So&amp;c=9780071&amp;w1=676193341&amp;");</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as URI pattern" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sedreco" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>/update</OntologyString>
@@ -2500,6 +2850,15 @@
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>/agr-enum/progress-inform/cube.php?res=</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2587,6 +2946,15 @@
       <FeatureReference name="has as dropper" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Xagent dropper1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as dropper" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Zebrocy dropper2" />
@@ -2605,9 +2973,18 @@
       <FeatureReference name="has as downloader" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedkit" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as downloader" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sedreco" />
         <FormalParameterReference name="&lt;P2>" />
-        <InstanceReference name="Sedreco DLL" />
+        <InstanceReference name="Sedreco DLL1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 </Facts>

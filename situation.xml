@@ -6249,7 +6249,7 @@
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
-                    <ConceptReference name="temporary file" />
+                    <ConceptReference name="file system object" />
                   </ClassicConceptBound>
                 </UpperBound>
               </ParameterClassicPVSDomain>
