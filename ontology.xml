@@ -4,6 +4,25 @@
 <ConceptAdditionalInfo name="object">
       <DirectSuperConcepts />
     </ConceptAdditionalInfo>
+<Concept name="programming language">
+      <DirectSuperConcepts>
+        <ConceptReference name="object" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="programming language" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
 <Concept name="contributor">
       <DirectSuperConcepts>
         <ConceptReference name="object" />
@@ -1214,6 +1233,25 @@
         </NLPattern>
       </NLInfo>
     </Concept>
+<Concept name="configuration file">
+      <DirectSuperConcepts>
+        <ConceptReference name="file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <ConceptReference name="configuration file" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Concept>
 <Concept name="dropper file">
       <DirectSuperConcepts>
         <ConceptReference name="file" />
@@ -1729,6 +1767,72 @@
       <DirectSuperFeatures />
       <DomainNegativeExamples />
     </FeatureAdditionalInfo>
+<Feature name="has as configuration file">
+      <DirectSuperFeatures>
+        <FeatureReference name="feature" />
+      </DirectSuperFeatures>
+      <ConstantFormalParametersList>
+        <FormalParameter name="&lt;P1>" />
+        <FormalParameter name="&lt;P2>" />
+      </ConstantFormalParametersList>
+      <MultiVariableCondition>
+        <AbstractFactsLinks />
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P1>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+        <ParameterClassicPVSDomain>
+          <FormalParameterReference name="&lt;P2>" />
+          <LowerBound>
+            <ClassicConceptLowerBound>
+              <ConceptReference name="configuration file" />
+            </ClassicConceptLowerBound>
+          </LowerBound>
+          <UpperBound>
+            <ClassicConceptBound>
+              <ConceptReference name="object" />
+            </ClassicConceptBound>
+          </UpperBound>
+        </ParameterClassicPVSDomain>
+      </MultiVariableCondition>
+      <DomainNegativeExamples />
+      <ParametersProperties>
+        <Properties>
+          <FormalParameterReference name="&lt;P2>" />
+          <disciple.km.ontology.features.SingleMultipleProperty single="false" />
+        </Properties>
+      </ParametersProperties>
+      <documentation value="" />
+      <NLInfo>
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P1>" />
+            </Parameter>
+            <String> </String>
+            <OntologyEntity>
+              <FeatureReference name="has as configuration file" />
+            </OntologyEntity>
+            <String> </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="&lt;P2>" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Feature>
 <Feature name="has as downloader">
       <DirectSuperFeatures>
         <FeatureReference name="feature" />
@@ -1883,7 +1987,7 @@
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
             <ClassicConceptLowerBound>
-              <ConceptReference name="malware" />
+              <ConceptReference name="object" />
             </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
@@ -2361,7 +2465,7 @@
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
             <ClassicConceptLowerBound>
-              <ConceptReference name="dropper file" />
+              <ConceptReference name="object" />
             </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
@@ -2776,7 +2880,7 @@
             <AnyStringBound />
           </LowerBound>
           <UpperBound>
-            <AnyStringBound />
+            <AnyElementBound />
           </UpperBound>
         </ParameterClassicPVSDomain>
       </MultiVariableCondition>
@@ -2958,22 +3062,26 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="object" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
-              <ConceptReference name="persistence mechanism" />
+              <ConceptReference name="object" />
             </ClassicConceptBound>
           </UpperBound>
         </ParameterClassicPVSDomain>
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P2>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="DLL" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
-              <ConceptReference name="DLL" />
+              <ConceptReference name="object" />
             </ClassicConceptBound>
           </UpperBound>
         </ParameterClassicPVSDomain>
@@ -3220,7 +3328,9 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="malware" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
@@ -3231,11 +3341,13 @@
         <ParameterClassicPVSDomain>
           <FormalParameterReference name="&lt;P2>" />
           <LowerBound>
-            <ClassicEmptyBound />
+            <ClassicConceptLowerBound>
+              <ConceptReference name="command shell file" />
+            </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>
             <ClassicConceptBound>
-              <ConceptReference name="command shell file" />
+              <ConceptReference name="object" />
             </ClassicConceptBound>
           </UpperBound>
         </ParameterClassicPVSDomain>
@@ -4915,7 +5027,7 @@
           <FormalParameterReference name="&lt;P1>" />
           <LowerBound>
             <ClassicConceptLowerBound>
-              <ConceptReference name="malware" />
+              <ConceptReference name="object" />
             </ClassicConceptLowerBound>
           </LowerBound>
           <UpperBound>

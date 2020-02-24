@@ -4889,7 +4889,8 @@
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
-                    <ConceptReference name="DLL" />
+                    <ConceptReference name="file system object" />
+                    <ConceptReference name="program" />
                   </ClassicConceptBound>
                 </UpperBound>
               </ParameterClassicPVSDomain>
@@ -7546,7 +7547,8 @@
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
-                    <ConceptReference name="DLL" />
+                    <ConceptReference name="file system object" />
+                    <ConceptReference name="program" />
                   </ClassicConceptBound>
                 </UpperBound>
               </ParameterClassicPVSDomain>
@@ -7885,7 +7887,8 @@
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
-                    <ConceptReference name="DLL" />
+                    <ConceptReference name="file system object" />
+                    <ConceptReference name="program" />
                   </ClassicConceptBound>
                 </UpperBound>
               </ParameterClassicPVSDomain>

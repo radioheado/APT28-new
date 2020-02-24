@@ -20,6 +20,25 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Sedreco Registry value1">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry value" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco Registry value1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Zebrocy Registry value2">
       <DirectSuperConcepts>
         <ConceptReference name="Registry value" />
@@ -58,6 +77,101 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Sedreco Registry key2">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry key" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco Registry key2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco Registry key1">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry key" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco Registry key1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph Registry key2">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry key" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph Registry key2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph Registry key1">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry key" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph Registry key1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Seduploader Registry key1">
+      <DirectSuperConcepts>
+        <ConceptReference name="Registry key" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader Registry key1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Zebrocy Registry key2">
       <DirectSuperConcepts>
         <ConceptReference name="Registry key" />
@@ -88,6 +202,44 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Zebrocy Registry key1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph end time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph end time" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph start time">
+      <DirectSuperConcepts>
+        <ConceptReference name="time" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph start time" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -343,6 +495,158 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="C plus plus">
+      <DirectSuperConcepts>
+        <ConceptReference name="programming language" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="C plus plus" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="dot NET">
+      <DirectSuperConcepts>
+        <ConceptReference name="programming language" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="dot NET" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Python">
+      <DirectSuperConcepts>
+        <ConceptReference name="programming language" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Python" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Delphi">
+      <DirectSuperConcepts>
+        <ConceptReference name="programming language" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Delphi" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph DLL3">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph DLL3" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph DLL1">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph DLL1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph DLL2">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph DLL2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Seduploader DLL">
+      <DirectSuperConcepts>
+        <ConceptReference name="DLL" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader DLL" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Sedreco DLL2">
       <DirectSuperConcepts>
         <ConceptReference name="DLL" />
@@ -430,6 +734,25 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Sedreco DLL1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph">
+      <DirectSuperConcepts>
+        <ConceptReference name="malware" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -628,6 +951,101 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Sedreco data file3">
+      <DirectSuperConcepts>
+        <ConceptReference name="data file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco data file3" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph PDB file3">
+      <DirectSuperConcepts>
+        <ConceptReference name="data file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph PDB file3" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph PDB file2">
+      <DirectSuperConcepts>
+        <ConceptReference name="data file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph PDB file2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph PDB file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="data file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph PDB file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Seduploader PDB file">
+      <DirectSuperConcepts>
+        <ConceptReference name="data file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader PDB file" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Sedreco data file2">
       <DirectSuperConcepts>
         <ConceptReference name="data file" />
@@ -742,6 +1160,120 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="Downdelph command shell file2">
+      <DirectSuperConcepts>
+        <ConceptReference name="command shell file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph command shell file2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph command shell file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="command shell file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph command shell file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Statement by the Spokesperson of European Union on the latest developments in eastern Ukraine">
+      <DirectSuperConcepts>
+        <ConceptReference name="lure document" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Statement by the Spokesperson of European Union on the latest developments in eastern Ukraine" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Putin_Is_Being_Pushed_to_Prepare_for_War">
+      <DirectSuperConcepts>
+        <ConceptReference name="lure document" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Putin_Is_Being_Pushed_to_Prepare_for_War" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Iran nuclear talks">
+      <DirectSuperConcepts>
+        <ConceptReference name="lure document" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Iran nuclear talks" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Exercise Noble Partner">
+      <DirectSuperConcepts>
+        <ConceptReference name="lure document" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Exercise Noble Partner" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="South Africa MFA document">
       <DirectSuperConcepts>
         <ConceptReference name="lure document" />
@@ -772,6 +1304,44 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Brexit 2018" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco dropper2">
+      <DirectSuperConcepts>
+        <ConceptReference name="dropper file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco dropper2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco dropper1">
+      <DirectSuperConcepts>
+        <ConceptReference name="dropper file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco dropper1" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -829,6 +1399,63 @@
           <Fragments>
             <OntologyEntity>
               <InstanceReference name="Zebrocy dropper1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedreco conf file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="configuration file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedreco conf file1" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph conf file2">
+      <DirectSuperConcepts>
+        <ConceptReference name="configuration file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph conf file2" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Downdelph conf file1">
+      <DirectSuperConcepts>
+        <ConceptReference name="configuration file" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Downdelph conf file1" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1046,7 +1673,7 @@
         </NLPattern>
       </NLInfo>
     </Instance>
-<Instance name="Sedkit domain name">
+<Instance name="Downdelph C2 domain name">
       <DirectSuperConcepts>
         <ConceptReference name="dynamic domain address" />
       </DirectSuperConcepts>
@@ -1056,7 +1683,45 @@
         <NLPattern>
           <Fragments>
             <OntologyEntity>
-              <InstanceReference name="Sedkit domain name" />
+              <InstanceReference name="Downdelph C2 domain name" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Seduploader C2 domain name">
+      <DirectSuperConcepts>
+        <ConceptReference name="dynamic domain address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Seduploader C2 domain name" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="Sedkit C2 domain name">
+      <DirectSuperConcepts>
+        <ConceptReference name="dynamic domain address" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="Sedkit C2 domain name" />
             </OntologyEntity>
           </Fragments>
         </NLPattern>
@@ -1128,6 +1793,24 @@
       <FeatureReference name="has as attack stage" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco dropper2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as attack stage" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Seduploader" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>first stage</OntologyString>
@@ -1194,6 +1877,15 @@
         <InstanceReference name="Sofacy the malware" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>first stage</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name matching" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Delphacy</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -1281,6 +1973,798 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco dropper2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>runrun.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco data file3" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>tmp.dat</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco Registry value1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>“RUNDLL32.EXE “C:\Documents and Settings\&lt;user-name>\Local Settings\Application Data\Microsoft Help\advstorshell.dll”, InitW”</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco Registry key2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco Registry key1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Path</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco conf file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>msd</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco dropper1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>winloat.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph Registry key2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system\shell</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph Registry key1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>HKCU\Software\Microsoft\Windows\CurrentVersion\Run\LastEnum</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph DLL3" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>shcore.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph DLL1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>install_com_x32_LL_full.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph DLL2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>apivscd.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph PDB file3" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>fsflt.pdb</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph PDB file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>fsflt.pdb</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph PDB file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>fsflt.pdb</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph command shell file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>winload.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph command shell file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>explorer.exe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph conf file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>pinlt.ini</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph conf file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>extended.ini</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>intelmeserver.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph end time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Sep 2015</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Nov 2013</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="C plus plus" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>C++</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="dot NET" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>.NET</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Python" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Python</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Delphi" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Delphi</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>mgswizap.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>lsasrvi.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>iprpp.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>hello32.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>decompbufferrawpe-0x7c4-1429488-1.bin</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>decompbufferrawfix-0x624-1643712-1.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>csrs.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>btecache.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>apisvcd.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>api-ms-win-samcli-dnsapi-0-0-0.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>api-ms-win-downlevel-profile-l1-1-0.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>api-ms-win-core-advapi-l1-1-0.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader DLL" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>amdcache.dll</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader PDB file" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>D:\REDMINE\JOINER\HEADER_PAYLOAD\header_payload\Uploader\Release\Uploader.pdb</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.winupdatesysmic.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.storsvc.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.tabsync.net</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.wscapi.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.biocpl.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.acledit.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.windowscheckupdater.net</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.dataclen.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.mscoresvw.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>www.capisp.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>swsupporttools.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader Registry key1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>HKCU\Software\Microsoft\Office test\Special\Perf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>worldpoliticsnews.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>worldmilitarynews.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>virusdefender.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>unitednationsnews.eu</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>trend-news.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>thediplomat-press.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>stratforglobal.net</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>shurl.biz</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>politicsinform.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>politicalreview.eu</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>pakistan-mofa.net</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>osce-press.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>osce-info.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>natopress.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>natoint.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>nato-news.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>nato-hq.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>militaryobserver.net</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>militaryadviser.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>military-info.eu</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>kg-news.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>euroreport24.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>euronews24.info</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>diplomatnews.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>defencereview.eu</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>defenceiq.us</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>dailypoliticsnews.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>dailyforeignnews.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>cnnpolitics.eu</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>bbc-press.org</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ausameetings.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>aljazeera-news.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Statement by the Spokesperson of European Union on the latest developments in eastern Ukraine" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Statement by the Spokesperson of European Union on the latest developments in eastern Ukraine.rtf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Putin_Is_Being_Pushed_to_Prepare_for_War" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Putin_Is_Being_Pushed_to_Prepare_for_War.rtf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Iran nuclear talks" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Iran_nuclear_talks.rtf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Exercise Noble Partner" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Exercise_Noble_Partner_16.rtf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as external name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Seduploader temporary file3" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>jkeyskw.temp</OntologyString>
@@ -1317,7 +2801,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sedkit domain name" />
+        <InstanceReference name="Sedkit C2 domain name" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>unian-news.info</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -1326,7 +2810,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sedkit domain name" />
+        <InstanceReference name="Sedkit C2 domain name" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>reuters-press.com</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -1335,7 +2819,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sedkit domain name" />
+        <InstanceReference name="Sedkit C2 domain name" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>worldpostjournal.com</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -1344,7 +2828,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sedkit domain name" />
+        <InstanceReference name="Sedkit C2 domain name" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>worldpoliticsreviews.com</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -1353,7 +2837,7 @@
       <FeatureReference name="has as external name" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Sedkit domain name" />
+        <InstanceReference name="Sedkit C2 domain name" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>theguardiannews.org</OntologyString>
       </ConstantInstantiatedFormalParameters>
@@ -1803,6 +3287,33 @@
       <FeatureReference name="has as domain" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph C2 domain name" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as domain" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedkit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedkit C2 domain name" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as domain" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader start time" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader C2 domain name" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as domain" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Xagent" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Xagent C2 server domain name" />
@@ -1833,6 +3344,213 @@
         <InstanceReference name="Xagent C2 server domain name" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Xagent C2 server IP address" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph PDB file3" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d:\new\hideinstaller\Bin\Debug\wxp\x86\fsflt.pdb</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph PDB file2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d:\!work\etc\hideinstaller_kis2013\Bin\Debug\win7\x64\fsflt.pdb</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph PDB file1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d:\!work\etc\hi\Bin\Debug\win7\x86\fsflt.pdb</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win64/Agent.DJ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win64/TrojanDropper.Small.B</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win64/TrojanDropper.Small.A</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Small.NNY</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AU</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AT</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AS</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AR</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AG</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AF</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AC</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AB</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AA</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.Z</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XFK</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XIO</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XIJ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XIA</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Agent.XBZ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as path name" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>OSX/Agent.AE</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -1983,6 +3701,15 @@
       <FeatureReference name="has as start time" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph start time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as start time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Seduploader" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Seduploader start time" />
@@ -2055,6 +3782,15 @@
       <FeatureReference name="has as end time" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph end time" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as end time" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Xtunnel domain" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Xtunnel domain end time" />
@@ -2091,6 +3827,69 @@
       <FeatureReference name="has as unique malware string" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win64/Sednit.J</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.K</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.BB</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.BA</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Sednit.AZ</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Rootkit.Agent.OAY</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>Win32/Rootkit.Agent.OAW</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as unique malware string" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sedreco" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>AZZYMTX</OntologyString>
@@ -2112,6 +3911,537 @@
         <InstanceReference name="Xagent" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>AgentKernel</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ee788901cd804965f1cd00a0afc713c8623430c4</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>e8aca4b0cfe509783a34ff908287f98cab968d9e</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>9f3ab8779f2b81cae83f62245afb124266765939</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>7394ea20c3d510c938ef83a2d0195b767cd99ed7</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>6caa48cd9532da4cabd6994f62b8211ab9672d9e</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>669a02e330f5afc55a3775c4c6959b3f9e9965cf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>5fc4d555ca7e0536d18043977602d421a6fd65f9</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>5c132ae63e3b41f7b2385740b9109b473856a6a5</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>593d0eb95227e41d299659842395e76b55aa048d</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>516ec3584073a1c05c0d909b8b6c15ecb10933f1</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>4f92d364ce871c1aebbf3c5d2445c296ef535632</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>4c9c7c4fd83edaf7ec80687a7a957826de038dd7</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>49acba812894444c634b034962d46f986e0257cf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>1cc2b6b208b7687763659aeb5dcb76c5c2fbbf26</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>f7608ef62a45822e9300d390064e667028b75dea</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>f3d50c1f7d5f322c1a1f9a72ff122cac990881ee</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>f024dbab65198467c2b832de9724cb70e24af0dd</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ed9f3e5e889d281437b945993c6c2a80c60fdedc</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>e742b917d3ef41992e67389cd2fe2aab0f9ace5b</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>e5fb715a1c70402774ee2c518fb0e4e9cd3fdcff</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d9989a46d590ebc792f14aa6fec30560dfe931b1</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d85e44d386315b0258847495be1711450ac02d9f</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>d3aa282b390a5cb29d15a97e0a046305038dbefe</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>c345a85c01360f2833752a253a5094ff421fc839</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>c2e8c584d5401952af4f1db08cf4b6016874ddac</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>c1eae93785c9cb917cfb260d3abf6432c6fdaf4d</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>b8aabe12502f7d55ae332905acee80a10e3bc399</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>b7788af2ef073d7b3fb84086496896e7404e625e</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>b4a515ef9de037f18d96b9b0e48271180f5725b7</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>a857bccf4cc5c15b60667ecd865112999e1e56ba</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>a5fca59a2fae0a12512336ca1b78f857afc06445</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>a43ef43f3c3db76a4a9ca8f40f7b2c89888f0399</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>9fc43e32c887b7697bf6d6933e9859d29581ead0</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>99f927f97838eb47c1d59500ee9155adb55b806a</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>90c3b756b1bb849cba80994d445e96a9872d0cf5</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>8f99774926b2e0bf85e5147aaca8bbbbcc5f1d48</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>842b0759b5796979877a2bac82a33500163ded67</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>80dca565807fa69a75a7dd278cef1daaee34236e</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>6fb3fd8c2580c84314b14510944700144a9e31df</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>69d8ca2a02241a1f88a525617cf18971c99fb63b</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>63d1d33e7418daf200dc4660fc9a59492ddd50d9</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>5c3e709517f41febf03109fa9d597f2ccc495956</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>51e42368639d593d0ae2968bd2849dc20735c071</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>51b0e3cd6360d50424bf776b3cd673dd45fd0f97</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>4fae67d3988da117608a7548d9029caddbfb3ebf</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>4d5e923351f52a9d5c94ee90e6a00e6fced733ef</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>3956cfe34566ba8805f9b1fe0d2639606a404cd4</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>351c3762be9948d01034c69aced97628099a90b0</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2c86a6d6e9915a7f38d119888ede60b38ab1d69d</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>2663eb655918c598be1b2231d7c018d8350a0ef9</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>21835aafe6d46840bb697e8b0d4aac06dec44f5b</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>17661a04b4b150a6f70afdabe3fd9839cc56bee8</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>10686cc4e46cf3ffbdeb71dd565329a80787c439</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>0f7893e2647a7204dbf4b72e50678545573c3a10</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>015425010bd4cf9d511f7fcd0fc17fc17c23eec1</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Statement by the Spokesperson of European Union on the latest developments in eastern Ukraine" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>ef755f3fa59960838fa2b37b7dedce83ce41f05c</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Putin_Is_Being_Pushed_to_Prepare_for_War" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>e7f7f6caaede6cc29c2e7e4888019f2d1be37cef</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Iran nuclear talks" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>9b276a0f5fd824c3dff638c5c127567c65222230</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as MD5 hash" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Exercise Noble Partner" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyString>76053b58643d0630b39d8c9d3080d7db5d017020</OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2418,6 +4748,42 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Sedreco" />
         <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco data file3" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as data file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph PDB file3" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as data file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph PDB file1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as data file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph PDB file2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as data file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Sedreco data file1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
@@ -2428,6 +4794,60 @@
         <InstanceReference name="Sedreco" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Sedreco data file2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as command shell file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph command shell file2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as command shell file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph command shell file1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as Registry key" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco Registry key1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as Registry key" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco Registry key2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as Registry key" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph Registry key2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as Registry key" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph Registry key1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2446,6 +4866,42 @@
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Zebrocy Registry key1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as injected DLL" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph DLL3" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as injected DLL" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph DLL2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as injected DLL" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph DLL1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as injected DLL" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Seduploader" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader DLL" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2532,36 +4988,17 @@
       <FeatureReference name="has as programming language" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Xagent" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>C++</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as programming language" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Zebrocy Registry key2" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>.NET</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as programming language" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Zebrocy Registry key1" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Delphi</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as programming language" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="ntslwin2" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>.NET</OntologyString>
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="dot NET" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2570,7 +5007,15 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="ntslwin1" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Delphi</OntologyString>
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="Delphi" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2579,7 +5024,15 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>.NET</OntologyString>
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="dot NET" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2588,7 +5041,83 @@
         <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>Delphi</OntologyString>
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="Delphi" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="dot NET" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Zebrocy Registry key1" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="Delphi" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="C plus plus" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as programming language" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <OntologyEntity>
+                <InstanceReference name="Delphi" />
+              </OntologyEntity>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2712,6 +5241,15 @@
       <FeatureReference name="has as payload" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco DLL2" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as payload" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Xagent dropper1" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Xagent DLL3" />
@@ -2811,6 +5349,15 @@
       <FeatureReference name="has as registry value" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco Registry key2" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco Registry value1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as registry value" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy Registry key2" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Zebrocy Registry value2" />
@@ -2850,6 +5397,15 @@
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
         <OntologyString>/agr-enum/progress-inform/cube.php?res=</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as malware" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2937,9 +5493,54 @@
       <FeatureReference name="has as lure file" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Iran nuclear talks" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as lure file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Statement by the Spokesperson of European Union on the latest developments in eastern Ukraine" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as lure file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Putin_Is_Being_Pushed_to_Prepare_for_War" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as lure file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sednit" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Exercise Noble Partner" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as lure file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Zebrocy" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Brexit 2018" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as dropper" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco dropper1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -2973,6 +5574,51 @@
       <FeatureReference name="has as downloader" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as downloader" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as downloader" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as downloader" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Xagent" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedkit" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as downloader" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Seduploader" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as downloader" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
         <InstanceReference name="Seduploader" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Sedkit" />
@@ -2985,6 +5631,24 @@
         <InstanceReference name="Sedreco" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Sedreco DLL1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as configuration file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Sedreco" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Sedreco conf file1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as configuration file" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="Downdelph" />
+        <FormalParameterReference name="&lt;P2>" />
+        <InstanceReference name="Downdelph conf file1" />
       </ConstantInstantiatedFormalParameters>
     </Fact>
 </Facts>
