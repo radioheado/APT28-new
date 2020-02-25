@@ -1,5 +1,96 @@
 <?xml version="1.0"?>
 <SituationKB version="1.0">
+<GlobalHypothesesClasses>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="4" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="2" type="1" generalizedExample="2">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>intelnetservice.com</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="31" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="connection1" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>109.248.148.42</OntologyString>
+              <FormalParameterReference name="?S3" />
+              <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+              <FormalParameterReference name="?S4" />
+              <OntologyString>intelnetservice.com</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="32" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>intelnetservice.com</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="33" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="connection1" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>109.248.148.42</OntologyString>
+              <FormalParameterReference name="?S3" />
+              <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+              <FormalParameterReference name="?S4" />
+              <OntologyString>intelnetservice.com</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="34" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="connection1" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>109.248.148.42</OntologyString>
+              <FormalParameterReference name="?S3" />
+              <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+              <FormalParameterReference name="?S4" />
+              <OntologyString>intelnetservice.com</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+</GlobalHypothesesClasses>
 <SituationExamples>
 <SituationExample version="1.0" index="0">
       <NLPattern>
@@ -29,7 +120,7 @@
           </OntologyEntity>
           <String> to </String>
           <OntologyEntity>
-            <OntologyString>109.19.12.1</OntologyString>
+            <OntologyString>109.248.148.42</OntologyString>
           </OntologyEntity>
           <String> at </String>
           <OntologyEntity>
@@ -49,6 +140,447 @@
       <SituationExampleReference version="1.0" kbPartName="Scen" index="0" />
     </IntelligenceQuestionExample>
 </IntelligenceQuestionExamples>
+<HypothesisExamples>
+<HypothesisExample version="1.0" index="0" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> from </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> to </String>
+          <OntologyEntity>
+            <OntologyString>109.248.148.42</OntologyString>
+          </OntologyEntity>
+          <String> at </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+          <String>, using known </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> domain </String>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String>, is part of </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> intrusion</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+      <IntelligenceQuestionExampleReference version="1.1" kbPartName="Scen" index="0" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="33" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="connection1" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>109.248.148.42</OntologyString>
+        <FormalParameterReference name="?S3" />
+        <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+        <FormalParameterReference name="?S4" />
+        <OntologyString>intelnetservice.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="1" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> from </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> to </String>
+          <OntologyEntity>
+            <OntologyString>109.248.148.42</OntologyString>
+          </OntologyEntity>
+          <String> at </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+          <String>, using known </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> domain </String>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String>, was generated by network security intelligence gathering</String>
+        </Fragments>
+      </NLPattern>
+      <IntelligenceQuestionExampleReference version="1.1" kbPartName="Scen" index="0" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="31" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="connection1" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>109.248.148.42</OntologyString>
+        <FormalParameterReference name="?S3" />
+        <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+        <FormalParameterReference name="?S4" />
+        <OntologyString>intelnetservice.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="2" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> from </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> to </String>
+          <OntologyEntity>
+            <OntologyString>109.248.148.42</OntologyString>
+          </OntologyEntity>
+          <String> at </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+          <String>, using known </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> domain </String>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String>, involves an inactive </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> C2 server</String>
+        </Fragments>
+      </NLPattern>
+      <IntelligenceQuestionExampleReference version="1.1" kbPartName="Scen" index="0" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="34" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="connection1" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>109.248.148.42</OntologyString>
+        <FormalParameterReference name="?S3" />
+        <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+        <FormalParameterReference name="?S4" />
+        <OntologyString>intelnetservice.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="3" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> involves an active </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> C2 server</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L01 - barely likely" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="5" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>network based indicators</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L01 - barely likely" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="6" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String> is an active domain, mapped to a routable IP address and registered at a dynamic DNS provider, consistent with </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> methodology</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L01 - barely likely" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="7" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String> is active at time...</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="32" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>intelnetservice.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="8" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String> is registered at a dynamic DNS provider</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L00 - lacking support" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="9" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>The domain registrar for </String>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String> is on a list of known dynamic DNS providers</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L00 - lacking support" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="4" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>intelnetservice.com</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="10" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E1 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="11" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E2 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="12" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>The program made </String>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> from </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> to </String>
+          <OntologyEntity>
+            <OntologyString>109.248.148.42</OntologyString>
+          </OntologyEntity>
+          <String> at </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+          <String> is </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> malware</String>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+</HypothesisExamples>
+<TriggerRules>
+<TriggerRule_AdditionalInfo>
+      <TriggerRuleReference kbPartName="User" index="2" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters />
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </TriggerRule_AdditionalInfo>
+</TriggerRules>
+<TriggerExamples>
+<TriggerExample version="1.0" index="0" editedAfterGenerated="true">
+      <NLPattern>
+        <Fragments>
+          <String>m</String>
+        </Fragments>
+      </NLPattern>
+      <triggerRuleInfo>
+        <TriggerRuleReference kbPartName="User" index="2" />
+        <ConstantInstantiatedFormalParameters />
+      </triggerRuleInfo>
+    </TriggerExample>
+</TriggerExamples>
+<CollectionTaskExamples>
+<CollectionTaskExample version="1.0" index="0" requested="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> from </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> to </String>
+          <OntologyEntity>
+            <OntologyString>109.248.148.42</OntologyString>
+          </OntologyEntity>
+          <String> at </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+          <String>, using known </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> domain </String>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+<CollectionTaskExample version="1.0" index="1" requested="false">
+      <NLPattern>
+        <Fragments>
+          <String>collection task</String>
+        </Fragments>
+      </NLPattern>
+    </CollectionTaskExample>
+</CollectionTaskExamples>
+<ArgumentStepExamples>
+<ArgumentStepExample version="1.0" index="0" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="0" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="3" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="12" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="3" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="12" />
+        </hypotheses>
+        <values />
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="2" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="3" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="5" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="3" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="5" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="6" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="4" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="6" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="7" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="8" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="7" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="8" />
+        </hypotheses>
+        <values />
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="5" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="8" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="9" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="6" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="7" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="10" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="7" favoring="false">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="9" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="11" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+</ArgumentStepExamples>
+<AbductiveStepRules>
+<AbductiveStepRule_AdditionalInfo>
+      <AbductiveStepRuleReference kbPartName="User" index="2" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>intelnetservice.com</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </AbductiveStepRule_AdditionalInfo>
+</AbductiveStepRules>
+<AbductiveStepExamples>
+<AbductiveStepExample version="1.0" index="0">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="7" />
+      <TriggerExampleReference version="1.0" kbPartName="Scen" index="0" />
+    </AbductiveStepExample>
+</AbductiveStepExamples>
+<CollectionStepExamples>
+<CollectionStepExample version="1.0" index="0">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="0" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="0" />
+    </CollectionStepExample>
+<CollectionStepExample version="1.0" index="1">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="7" />
+      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="1" />
+    </CollectionStepExample>
+</CollectionStepExamples>
 <EvidenceAssociationMap>
     <hypothesisEvidenceAssociationList />
   </EvidenceAssociationMap>

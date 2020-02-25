@@ -210,6 +210,44 @@
         </NLPattern>
       </NLInfo>
     </Instance>
+<Instance name="E2 evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="E2 evidence" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
+<Instance name="E1 evidence">
+      <DirectSuperConcepts>
+        <ConceptReference name="evidence" />
+      </DirectSuperConcepts>
+      <documentation value="" />
+      <NLInfo>
+        <LexicalInfo />
+        <NLPattern>
+          <Fragments>
+            <OntologyEntity>
+              <InstanceReference name="E1 evidence" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+        <NLPattern>
+          <Fragments />
+        </NLPattern>
+      </NLInfo>
+    </Instance>
 <Instance name="Downdelph end time">
       <DirectSuperConcepts>
         <ConceptReference name="time" />
@@ -1928,27 +1966,18 @@
       <FeatureReference name="has as URL" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Zebrocy dropper2" />
+        <InstanceReference name="E2 evidence" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>http://109.248.148.42/officeDocument/2006/relationships/templates.dotm</OntologyString>
+        <OntologyString></OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
       <FeatureReference name="has as URL" />
       <ConstantInstantiatedFormalParameters>
         <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Zebrocy dropper1" />
+        <InstanceReference name="E1 evidence" />
         <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>http://109.248.148.42/office/thememl/2012/main/attachedTemplate.dotm</OntologyString>
-      </ConstantInstantiatedFormalParameters>
-    </Fact>
-<Fact>
-      <FeatureReference name="has as URL" />
-      <ConstantInstantiatedFormalParameters>
-        <FormalParameterReference name="&lt;P1>" />
-        <InstanceReference name="Brexit 2018" />
-        <FormalParameterReference name="&lt;P2>" />
-        <OntologyString>http://109.248.148.42/office/thememl/2012/main/attachedTemplate.dotm</OntologyString>
+        <OntologyString></OntologyString>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 <Fact>
@@ -5649,6 +5678,36 @@
         <InstanceReference name="Downdelph" />
         <FormalParameterReference name="&lt;P2>" />
         <InstanceReference name="Downdelph conf file1" />
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as description" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="E2 evidence" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <String>intelnetservice.com has NOT_FOUND which is not a known dynamic DNS provider</String>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
+      </ConstantInstantiatedFormalParameters>
+    </Fact>
+<Fact>
+      <FeatureReference name="has as description" />
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="&lt;P1>" />
+        <InstanceReference name="E1 evidence" />
+        <FormalParameterReference name="&lt;P2>" />
+        <OntologyText>
+          <NLPattern>
+            <Fragments>
+              <String>domain intelnetservice.com is mapped to 109.248.148.42 at 01/02/2020 01:23:45 AM</String>
+            </Fragments>
+          </NLPattern>
+        </OntologyText>
       </ConstantInstantiatedFormalParameters>
     </Fact>
 </Facts>
