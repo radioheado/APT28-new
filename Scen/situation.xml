@@ -90,6 +90,19 @@
         </ListOfExamples>
       </LearnableConditionExamples>
     </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="35" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Sednit" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
 </GlobalHypothesesClasses>
 <SituationExamples>
 <SituationExample version="1.0" index="0">
@@ -420,37 +433,19 @@
           <String> malware</String>
         </Fragments>
       </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
     </HypothesisExample>
-</HypothesisExamples>
-<TriggerRules>
-<TriggerRule_AdditionalInfo>
-      <TriggerRuleReference kbPartName="User" index="2" />
-      <LearnableConditionExamples>
-        <ListOfExamples>
-          <ConditionExample index="1" type="1" generalizedExample="1">
-            <ConstantInstantiatedFormalParameters />
-          </ConditionExample>
-        </ListOfExamples>
-      </LearnableConditionExamples>
-    </TriggerRule_AdditionalInfo>
-</TriggerRules>
-<TriggerExamples>
-<TriggerExample version="1.0" index="0" editedAfterGenerated="true">
+<HypothesisExample version="1.0" index="13" negation="false">
       <NLPattern>
         <Fragments>
-          <String>m</String>
-        </Fragments>
-      </NLPattern>
-      <triggerRuleInfo>
-        <TriggerRuleReference kbPartName="User" index="2" />
-        <ConstantInstantiatedFormalParameters />
-      </triggerRuleInfo>
-    </TriggerExample>
-</TriggerExamples>
-<CollectionTaskExamples>
-<CollectionTaskExample version="1.0" index="0" requested="false">
-      <NLPattern>
-        <Fragments>
+          <OntologyEntity>
+            <OntologyString>ntslwin.exe</OntologyString>
+          </OntologyEntity>
+          <String> with process ID </String>
+          <OntologyEntity>
+            <OntologyString>2333</OntologyString>
+          </OntologyEntity>
+          <String> that made </String>
           <OntologyEntity>
             <InstanceReference name="connection1" />
           </OntologyEntity>
@@ -466,25 +461,149 @@
           <OntologyEntity>
             <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
           </OntologyEntity>
-          <String>, using known </String>
+          <String> is </String>
           <OntologyEntity>
             <ConceptReference name="APT28" />
           </OntologyEntity>
-          <String> domain </String>
+          <String> malware</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="14" negation="false">
+      <NLPattern>
+        <Fragments>
           <OntologyEntity>
-            <OntologyString>intelnetservice.com</OntologyString>
+            <OntologyString>ntslwin.exe</OntologyString>
+          </OntologyEntity>
+          <String> with process ID </String>
+          <OntologyEntity>
+            <OntologyString>2333</OntologyString>
+          </OntologyEntity>
+          <String> that made </String>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> from </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> to </String>
+          <OntologyEntity>
+            <OntologyString>109.248.148.42</OntologyString>
+          </OntologyEntity>
+          <String> at </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+          <String> is </String>
+          <OntologyEntity>
+            <InstanceReference name="Sednit" />
+          </OntologyEntity>
+          <String> malware</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="15" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Sednit" />
+          </OntologyEntity>
+          <String> is a subgroup of </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
           </OntologyEntity>
         </Fragments>
       </NLPattern>
-    </CollectionTaskExample>
-<CollectionTaskExample version="1.0" index="1" requested="false">
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="35" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Sednit" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="16" negation="false">
       <NLPattern>
         <Fragments>
-          <String>collection task</String>
+          <OntologyEntity>
+            <InstanceReference name="E3 evidence" />
+          </OntologyEntity>
         </Fragments>
       </NLPattern>
-    </CollectionTaskExample>
-</CollectionTaskExamples>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="17" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>ntslwin.exe</OntologyString>
+          </OntologyEntity>
+          <String> with process ID </String>
+          <OntologyEntity>
+            <OntologyString>2333</OntologyString>
+          </OntologyEntity>
+          <String> that made </String>
+          <OntologyEntity>
+            <InstanceReference name="connection1" />
+          </OntologyEntity>
+          <String> from </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> to </String>
+          <OntologyEntity>
+            <OntologyString>109.248.148.42</OntologyString>
+          </OntologyEntity>
+          <String> at </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+          <String> is part of </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> malware used by </String>
+          <OntologyEntity>
+            <InstanceReference name="Sednit" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="18" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>ntslwin.exe</OntologyString>
+          </OntologyEntity>
+          <String> with process ID </String>
+          <OntologyEntity>
+            <OntologyString>2333</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> features</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L05 - more than likely" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="19" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> file system artifacts present on the host computer </String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+</HypothesisExamples>
 <ArgumentStepExamples>
 <ArgumentStepExample version="1.0" index="0" favoring="true">
       <HypothesisExampleReference version="1.0" kbPartName="Scen" index="0" />
@@ -549,38 +668,50 @@
         <HypothesisExampleReference version="1.0" kbPartName="Scen" index="11" />
       </SubHypotheses>
     </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="8" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="12" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="13" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="9" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="13" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="14" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="15" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="10" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="15" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="16" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="11" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L09" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="14" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="17" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="12" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="17" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="18" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="19" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="18" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="19" />
+        </hypotheses>
+        <values />
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
 </ArgumentStepExamples>
-<AbductiveStepRules>
-<AbductiveStepRule_AdditionalInfo>
-      <AbductiveStepRuleReference kbPartName="User" index="2" />
-      <LearnableConditionExamples>
-        <ListOfExamples>
-          <ConditionExample index="1" type="1" generalizedExample="1">
-            <ConstantInstantiatedFormalParameters>
-              <FormalParameterReference name="?S1" />
-              <OntologyString>intelnetservice.com</OntologyString>
-            </ConstantInstantiatedFormalParameters>
-          </ConditionExample>
-        </ListOfExamples>
-      </LearnableConditionExamples>
-    </AbductiveStepRule_AdditionalInfo>
-</AbductiveStepRules>
-<AbductiveStepExamples>
-<AbductiveStepExample version="1.0" index="0">
-      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="7" />
-      <TriggerExampleReference version="1.0" kbPartName="Scen" index="0" />
-    </AbductiveStepExample>
-</AbductiveStepExamples>
-<CollectionStepExamples>
-<CollectionStepExample version="1.0" index="0">
-      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="0" />
-      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="0" />
-    </CollectionStepExample>
-<CollectionStepExample version="1.0" index="1">
-      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="7" />
-      <CollectionTaskExampleReference version="1.0" kbPartName="Scen" index="1" />
-    </CollectionStepExample>
-</CollectionStepExamples>
 <EvidenceAssociationMap>
     <hypothesisEvidenceAssociationList />
   </EvidenceAssociationMap>

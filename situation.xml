@@ -3859,6 +3859,69 @@
         </LearnableConditionExamples>
       </LearnableCondition>
     </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="35" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> is a subgroup of </String>
+            <OntologyEntity>
+              <ConceptReference name="APT28" />
+            </OntologyEntity>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="APT28" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="hacker group" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="APT28" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
 </GlobalHypothesesClasses>
 <GlobalArgumentsClasses>
 <GlobalArgumentClass localIndex="0" favoring="favoring" lastLocalIndex="11">
@@ -4143,11 +4206,11 @@
           <FormalParameterReference name="?S5" />
           <FormalParameterReference name="?O2" />
           <FormalParameterReference name="?S6" />
-          <FormalParameterReference name="?O8" />
-          <FormalParameterReference name="?O7" />
           <FormalParameterReference name="?O4" />
-          <FormalParameterReference name="?O3" />
+          <FormalParameterReference name="?O7" />
           <FormalParameterReference name="?O6" />
+          <FormalParameterReference name="?O8" />
+          <FormalParameterReference name="?O3" />
           <FormalParameterReference name="?O5" />
         </SharedParameters>
         <Explanations>
@@ -6601,8 +6664,8 @@
           <FormalParameterReference name="?S1" />
           <FormalParameterReference name="?S2" />
           <FormalParameterReference name="?S3" />
-          <FormalParameterReference name="?O2" />
           <FormalParameterReference name="?O3" />
+          <FormalParameterReference name="?O2" />
         </SharedParameters>
         <Explanations>
           <Positive>
@@ -6759,13 +6822,13 @@
                 <OntologyString>%USERPROFILE%\\Local Settings\\Temp</OntologyString>
                 <FormalParameterReference name="?S3" />
                 <OntologyString>\\~_MC_[2-7]\\~[0-9]*</OntologyString>
-                <FormalParameterReference name="?O2" />
-                <MintermOfConcepts>
-                  <ConceptReference name="temporary folder" />
-                </MintermOfConcepts>
                 <FormalParameterReference name="?O3" />
                 <MintermOfConcepts>
                   <ConceptReference name="temporary file" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?O2" />
+                <MintermOfConcepts>
+                  <ConceptReference name="temporary folder" />
                 </MintermOfConcepts>
               </ConstantInstantiatedFormalParameters>
             </ConditionGeneralizedExample>
@@ -7885,8 +7948,8 @@
           <FormalParameterReference name="?S2" />
           <FormalParameterReference name="?O1" />
           <FormalParameterReference name="?S3" />
-          <FormalParameterReference name="?O2" />
           <FormalParameterReference name="?O3" />
+          <FormalParameterReference name="?O2" />
         </SharedParameters>
         <Explanations>
           <Positive>
@@ -8044,10 +8107,10 @@
                 <InstanceReference name="Auriga" />
                 <FormalParameterReference name="?S3" />
                 <OntologyString>superhard corp.</OntologyString>
-                <FormalParameterReference name="?O2" />
-                <InstanceReference name="Auriga Windows service1" />
                 <FormalParameterReference name="?O3" />
                 <InstanceReference name="Auriga DLL1" />
+                <FormalParameterReference name="?O2" />
+                <InstanceReference name="Auriga Windows service1" />
               </ConstantInstantiatedFormalParameters>
             </ConditionGeneralizedExample>
           </ConditionGeneralizedExamplesList>
