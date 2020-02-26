@@ -15,6 +15,36 @@
       </LearnableConditionExamples>
     </GlobalHypothesisClass_AdditionalInfo>
 <GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="13" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="2" type="1" generalizedExample="2">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="25" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="2" type="1" generalizedExample="2">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>intelnetservice.com</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
       <GlobalHypothesisClassReference kbPartName="User" index="31" />
       <LearnableConditionExamples>
         <ListOfExamples>
@@ -103,7 +133,467 @@
         </ListOfExamples>
       </LearnableConditionExamples>
     </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="36" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="37" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S2" />
+              <OntologyString>Brexit</OntologyString>
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Brexit 2018" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="38" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="39" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="40" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy Registry key1" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+          <ConditionExample index="2" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy Registry key2" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="41" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="42" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy dropper1" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+          <ConditionExample index="2" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy dropper2" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="43" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="ntslwin1" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+          <ConditionExample index="2" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="ntslwin2" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="44" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="45" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="ntslwin1" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="46" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="ntslwin1" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="47" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="48" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="49" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>C:\Users\Public\Videos\si.ini</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>10.10.1.2</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="50" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>%TMP%\Indy0037C632.tmp</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>10.10.1.2</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+          <ConditionExample index="2" type="1" generalizedExample="2">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>%TMP%\Indy01863A21.tmp</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>10.10.1.2</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="51" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="52" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>ntslwin.exe</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>10.10.1.2</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="53" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>intelnetservice.com</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="54" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>intelnetservice.com</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
+<GlobalHypothesisClass_AdditionalInfo>
+      <GlobalHypothesisClassReference kbPartName="User" index="55" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>intelnetservice.com</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalHypothesisClass_AdditionalInfo>
 </GlobalHypothesesClasses>
+<GlobalArgumentsClasses>
+<GlobalArgumentClass_AdditionalInfo>
+      <GlobalArgumentClassReference kbPartName="User" index="16" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalArgumentClass_AdditionalInfo>
+<GlobalArgumentClass_AdditionalInfo>
+      <GlobalArgumentClassReference kbPartName="User" index="17" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalArgumentClass_AdditionalInfo>
+<GlobalArgumentClass_AdditionalInfo>
+      <GlobalArgumentClassReference kbPartName="User" index="18" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="ntslwin1" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalArgumentClass_AdditionalInfo>
+<GlobalArgumentClass_AdditionalInfo>
+      <GlobalArgumentClassReference kbPartName="User" index="19" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="ntslwin1" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="Zebrocy" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalArgumentClass_AdditionalInfo>
+<GlobalArgumentClass_AdditionalInfo>
+      <GlobalArgumentClassReference kbPartName="User" index="20" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?O2" />
+              <InstanceReference name="ntslwin1" />
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalArgumentClass_AdditionalInfo>
+<GlobalArgumentClass_AdditionalInfo>
+      <GlobalArgumentClassReference kbPartName="User" index="21" />
+      <LearnableConditionExamples>
+        <ListOfExamples>
+          <ConditionExample index="1" type="1" generalizedExample="1">
+            <ConstantInstantiatedFormalParameters>
+              <FormalParameterReference name="?O1" />
+              <InstanceReference name="Zebrocy" />
+              <FormalParameterReference name="?S1" />
+              <OntologyString>10.10.1.2</OntologyString>
+              <FormalParameterReference name="?S2" />
+              <OntologyString>%TMP%\Indy0037C632.tmp</OntologyString>
+            </ConstantInstantiatedFormalParameters>
+          </ConditionExample>
+        </ListOfExamples>
+      </LearnableConditionExamples>
+    </GlobalArgumentClass_AdditionalInfo>
+</GlobalArgumentsClasses>
 <SituationExamples>
 <SituationExample version="1.0" index="0">
       <NLPattern>
@@ -284,6 +774,7 @@
           <String> C2 server</String>
         </Fragments>
       </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
       <IntelligenceQuestionExampleReference version="1.1" kbPartName="Scen" index="0" />
       <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
         <GlobalHypothesisClassReference kbPartName="User" index="34" />
@@ -599,9 +1090,819 @@
             <InstanceReference name="Zebrocy" />
           </OntologyEntity>
           <String> file system artifacts present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
         </Fragments>
       </NLPattern>
       <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="20" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> initial access mechanism</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="21" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> attributes</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L10 - almost certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="22" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has a lure document in </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> specific topics</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="36" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="23" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> </String>
+          <OntologyEntity>
+            <ConceptReference name="persistence mechanism" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="24" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has a lure document in </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> specific topics </String>
+          <OntologyEntity>
+            <OntologyString>Brexit</OntologyString>
+          </OntologyEntity>
+          <String> with name </String>
+          <OntologyEntity>
+            <InstanceReference name="Brexit 2018" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="37" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S2" />
+        <OntologyString>Brexit</OntologyString>
+        <FormalParameterReference name="?O2" />
+        <InstanceReference name="Brexit 2018" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="25" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E4 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="26" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> specific Registry Key</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="38" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="31" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>file on </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> MD5 hash</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="47" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="32" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>file </String>
+          <OntologyEntity>
+            <InstanceReference name="ntslwin1" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> MD5 hash 7e67122d3a052e4755b02965e2e56a2e</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="42" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?O2" />
+        <InstanceReference name="Zebrocy dropper1" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="34" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> specific Registry Key: </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy Registry key1" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="40" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?O2" />
+        <InstanceReference name="Zebrocy Registry key1" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="35" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> specific Registry Key: </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy Registry key2" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="40" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?O2" />
+        <InstanceReference name="Zebrocy Registry key2" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="36" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E5 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="37" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E6 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="38" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>file </String>
+          <OntologyEntity>
+            <InstanceReference name="ntslwin2" />
+          </OntologyEntity>
+          <String> on </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> MD5 hash a13c864980159cd9bdc94074b2389dda</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="42" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?O2" />
+        <InstanceReference name="Zebrocy dropper2" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="40" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> executable file</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="41" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="41" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> executable file </String>
+          <OntologyEntity>
+            <InstanceReference name="ntslwin1" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="43" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?O2" />
+        <InstanceReference name="ntslwin1" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="42" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> has </String>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> executable file </String>
+          <OntologyEntity>
+            <InstanceReference name="ntslwin2" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="43" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?O2" />
+        <InstanceReference name="ntslwin2" />
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="43" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E9 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="44" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E10 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="45" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E11 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="46" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E12 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="47" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> file system artifacts present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+          <String> </String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="48" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> files present</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="49" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> data file are present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="48" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="50" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> data file </String>
+          <OntologyEntity>
+            <OntologyString>C:\Users\Public\Videos\si.ini</OntologyString>
+          </OntologyEntity>
+          <String> is present on host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="49" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>C:\Users\Public\Videos\si.ini</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="51" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E13 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="52" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> dropper files are present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="51" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="53" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> temporary files are present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="13" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="54" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> temporary file </String>
+          <OntologyEntity>
+            <OntologyString>%TMP%\Indy0037C632.tmp</OntologyString>
+          </OntologyEntity>
+          <String> is present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="50" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>%TMP%\Indy0037C632.tmp</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="55" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E14 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="56" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> temporary file </String>
+          <OntologyEntity>
+            <OntologyString>%TMP%\Indy01863A21.tmp</OntologyString>
+          </OntologyEntity>
+          <String> is present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="50" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>%TMP%\Indy01863A21.tmp</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="57" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E15 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="58" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> dropper file Delphi version </String>
+          <OntologyEntity>
+            <OntologyString>ntslwin.exe</OntologyString>
+          </OntologyEntity>
+          <String> is present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="52" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>ntslwin.exe</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="59" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E7 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="60" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="Zebrocy" />
+          </OntologyEntity>
+          <String> dropper file .NET version </String>
+          <OntologyEntity>
+            <OntologyString>ntslwin.exe</OntologyString>
+          </OntologyEntity>
+          <String> is present on the host computer </String>
+          <OntologyEntity>
+            <OntologyString>10.10.1.2</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="52" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?O1" />
+        <InstanceReference name="Zebrocy" />
+        <FormalParameterReference name="?S1" />
+        <OntologyString>ntslwin.exe</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>10.10.1.2</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="61" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E8 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="62" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String> has not changed recently, there is no malicious web page hosted at the domain's URL, and the computer hosted at the domain is not listening on ports associated with </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> malware</String>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="63" negation="false">
+      <NLPattern>
+        <Fragments>
+          <String>The IP address mapped to </String>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String> did not change within 48 hours of time </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="25" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>intelnetservice.com</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="64" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <InstanceReference name="E16 evidence" />
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="65" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String>  is not listening on </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> malware ports at time </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="55" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>intelnetservice.com</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+      </ConstantInstantiatedFormalParameters>
+    </HypothesisExample>
+<HypothesisExample version="1.0" index="66" negation="false">
+      <NLPattern>
+        <Fragments>
+          <OntologyEntity>
+            <OntologyString>intelnetservice.com</OntologyString>
+          </OntologyEntity>
+          <String> not hosting other </String>
+          <OntologyEntity>
+            <ConceptReference name="APT28" />
+          </OntologyEntity>
+          <String> domains at time </String>
+          <OntologyEntity>
+            <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+          </OntologyEntity>
+        </Fragments>
+      </NLPattern>
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <ContextHypothesisClassReferenceForGlobalHypothesis index="0">
+        <GlobalHypothesisClassReference kbPartName="User" index="54" />
+      </ContextHypothesisClassReferenceForGlobalHypothesis>
+      <ConstantInstantiatedFormalParameters>
+        <FormalParameterReference name="?S1" />
+        <OntologyString>intelnetservice.com</OntologyString>
+        <FormalParameterReference name="?S2" />
+        <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+      </ConstantInstantiatedFormalParameters>
     </HypothesisExample>
 </HypothesisExamples>
 <ArgumentStepExamples>
@@ -708,8 +2009,408 @@
           <HypothesisExampleReference version="1.0" kbPartName="Scen" index="18" />
           <HypothesisExampleReference version="1.0" kbPartName="Scen" index="19" />
         </hypotheses>
-        <values />
+        <values>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="18" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="19" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L09" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="18" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L07" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="19" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+        </values>
       </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="13" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="18" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="20" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="23" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="21" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="20" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="21" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="23" />
+        </hypotheses>
+        <values>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="20" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="23" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="21" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L10 - almost certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="20" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="23" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="20" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="21" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="20" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L05 - more than likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="23" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="21" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="23" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L05 - more than likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="21" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L05 - more than likely" />
+          </HypothesesCombinationValue>
+        </values>
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="14" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="20" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="22" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="15" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="22" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="24" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="16" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="24" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="25" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="17" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="23" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="26" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="21" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="21" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="31" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="40" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="31" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="40" />
+        </hypotheses>
+        <values>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="31" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="40" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L10 - almost certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="31" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="40" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+        </values>
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="22" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="31" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="32" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="24" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="26" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="34" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="25" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="26" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="35" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="26" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="34" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="36" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="27" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="35" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="37" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="28" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="31" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="38" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="30" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="40" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="41" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="31" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="40" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="42" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="32" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="41" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="43" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="33" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="42" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="44" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="34" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="32" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="45" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="35" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="38" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="46" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="36" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="19" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="47" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="37" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="47" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="48" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="38" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="48" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="49" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+      </SubHypotheses>
+      <CombinedIndicatorExample>
+        <hypotheses>
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="49" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+          <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+        </hypotheses>
+        <values>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="49" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="49" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L09" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="49" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L09" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="49" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L09" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+          <HypothesesCombinationValue>
+            <hypotheses>
+              <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+            </hypotheses>
+            <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L08 - very likely" />
+          </HypothesesCombinationValue>
+        </values>
+      </CombinedIndicatorExample>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="39" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="49" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="50" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="40" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="50" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="51" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="41" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="54" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="42" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="54" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="55" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="43" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="53" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="56" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="44" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="56" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="57" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="45" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="58" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="46" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="58" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="59" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="47" favoring="true">
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="52" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="60" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="48" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="60" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="61" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="49" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="2" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="62" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="50" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="62" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="63" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="66" />
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="65" />
+      </SubHypotheses>
+    </ArgumentStepExample>
+<ArgumentStepExample version="1.0" index="51" favoring="true">
+      <DiscipleReferencedBeliefValue system="Likeliness 11 System" name="L11 - certain" />
+      <HypothesisExampleReference version="1.0" kbPartName="Scen" index="63" />
+      <SubHypotheses>
+        <HypothesisExampleReference version="1.0" kbPartName="Scen" index="64" />
+      </SubHypotheses>
     </ArgumentStepExample>
 </ArgumentStepExamples>
 <EvidenceAssociationMap>

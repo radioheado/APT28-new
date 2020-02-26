@@ -1768,9 +1768,9 @@
               <ParameterClassicPVSDomain>
                 <FormalParameterReference name="?O1" />
                 <LowerBound>
-                  <SingleInstanceBound>
-                    <InstanceReference name="Auriga" />
-                  </SingleInstanceBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
                 </LowerBound>
                 <UpperBound>
                   <ClassicConceptBound>
@@ -1791,7 +1791,7 @@
           </MainCondition>
           <ExceptWhenConditions />
         </PVSCondition>
-        <LearnableConditionExamples lastRuleExampleIndex="1">
+        <LearnableConditionExamples lastRuleExampleIndex="2">
           <ConditionGeneralizedExamplesList>
             <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
               <ConstantInstantiatedFormalParameters>
@@ -1799,6 +1799,16 @@
                 <InstanceReference name="Auriga" />
                 <FormalParameterReference name="?S1" />
                 <OntologyString>10.10.1.10</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+            <ConditionGeneralizedExample index="2" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
               </ConstantInstantiatedFormalParameters>
             </ConditionGeneralizedExample>
           </ConditionGeneralizedExamplesList>
@@ -2906,7 +2916,7 @@
           </MainCondition>
           <ExceptWhenConditions />
         </PVSCondition>
-        <LearnableConditionExamples lastRuleExampleIndex="1">
+        <LearnableConditionExamples lastRuleExampleIndex="2">
           <ConditionGeneralizedExamplesList>
             <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
               <ConstantInstantiatedFormalParameters>
@@ -2914,6 +2924,14 @@
                 <OntologyString>a-jsm.infobusinessus.org</OntologyString>
                 <FormalParameterReference name="?S2" />
                 <OntologyString>03/06/2018 08:30:30 PM</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+            <ConditionGeneralizedExample index="2" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>intelnetservice.com</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
               </ConstantInstantiatedFormalParameters>
             </ConditionGeneralizedExample>
           </ConditionGeneralizedExamplesList>
@@ -3915,6 +3933,1776 @@
                 <MintermOfConcepts>
                   <ConceptReference name="APT28" />
                 </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="36" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has a lure document in </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> specific topics</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="37" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S2" />
+        <FormalParameter name="?O2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has a lure document in </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> specific topics </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S2" />
+            </Parameter>
+            <String> with name </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S2" />
+          <FormalParameterReference name="?O2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S2" />
+              <FormalParameterReference name="?O2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S2" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O2" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="lure document" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="file system object" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>Brexit</OntologyString>
+                <FormalParameterReference name="?O2" />
+                <MintermOfConcepts>
+                  <ConceptReference name="lure document" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="38" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> specific Registry Key</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="39" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> dropper file</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="40" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?O2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> specific Registry Key: </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?O2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?O2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O2" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="Registry key" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="Registry key" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="2">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="2" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?O2" />
+                <MintermOfConcepts>
+                  <ConceptReference name="Registry key" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="41" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> executable file</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="42" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?O2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> dropper file </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?O2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?O2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O2" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="dropper file" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="file system object" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="2">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="2" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?O2" />
+                <MintermOfConcepts>
+                  <ConceptReference name="dropper file" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="43" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?O2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> executable file </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?O2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?O2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O2" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="2">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="2" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?O2" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="44" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <String>a file on </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> MD5 hash</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="45" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <String>a file </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> on </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O2" />
+            </Parameter>
+            <String> MD5 hash</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O2" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O2" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="46" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <String>file </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> on </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O2" />
+            </Parameter>
+            <String> MD5 hash</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O2" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O2" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="47" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?O1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <String>file on </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> has </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> MD5 hash</String>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?O1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?O1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="48" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> data file are present on the host computer </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="49" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?S2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> data file </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> is present on host computer </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?S2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?S2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S2" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>C:\Users\Public\Videos\si.ini</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>10.10.1.2</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="50" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?S2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> temporary file </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> is present on the host computer </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?S2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?S2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S2" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="2">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>%TMP%\Indy0037C632.tmp</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>10.10.1.2</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+            <ConditionGeneralizedExample index="2" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>%TMP%\Indy01863A21.tmp</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>10.10.1.2</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="51" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S1" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> dropper files are present on the host computer </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S1" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S1" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>10.10.1.2</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="52" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?O1" />
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?S2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?O1" />
+            </Parameter>
+            <String> dropper file </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> is present on the host computer </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?O1" />
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?S2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?O1" />
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?S2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?O1" />
+                <LowerBound>
+                  <ClassicConceptLowerBound>
+                    <ConceptReference name="malware" />
+                  </ClassicConceptLowerBound>
+                </LowerBound>
+                <UpperBound>
+                  <ClassicConceptBound>
+                    <ConceptReference name="program" />
+                  </ClassicConceptBound>
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S2" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?O1" />
+                <MintermOfConcepts>
+                  <ConceptReference name="malware" />
+                </MintermOfConcepts>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>ntslwin.exe</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>10.10.1.2</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="53" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?S2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> not hosting other APT1 domains at time </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?S2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?S2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S2" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>intelnetservice.com</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="54" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?S2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String> not hosting other </String>
+            <OntologyEntity>
+              <ConceptReference name="APT28" />
+            </OntologyEntity>
+            <String> domains at time </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?S2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?S2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S2" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>intelnetservice.com</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
+              </ConstantInstantiatedFormalParameters>
+            </ConditionGeneralizedExample>
+          </ConditionGeneralizedExamplesList>
+          <ListOfExamples />
+        </LearnableConditionExamples>
+      </LearnableCondition>
+    </GlobalHypothesisClass>
+<GlobalHypothesisClass localIndex="55" lastLocalIndex="0">
+      <ConstantFormalParametersList>
+        <FormalParameter name="?S1" />
+        <FormalParameter name="?S2" />
+      </ConstantFormalParametersList>
+      <ContextHypothesisClass localIndex="0">
+        <NLPattern>
+          <Fragments>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S1" />
+            </Parameter>
+            <String>  is not listening on </String>
+            <OntologyEntity>
+              <ConceptReference name="APT28" />
+            </OntologyEntity>
+            <String> malware ports at time </String>
+            <Parameter hasIndefiniteArticle="false" hasDefiniteArticle="false" useThePersonalPronoun="false">
+              <FormalParameterReference name="?S2" />
+            </Parameter>
+          </Fragments>
+        </NLPattern>
+      </ContextHypothesisClass>
+      <LearnableCondition>
+        <SharedParameters>
+          <FormalParameterReference name="?S1" />
+          <FormalParameterReference name="?S2" />
+        </SharedParameters>
+        <Explanations>
+          <Positive />
+        </Explanations>
+        <PVSCondition>
+          <MainCondition>
+            <ConstantFormalParametersSubList>
+              <FormalParameterReference name="?S1" />
+              <FormalParameterReference name="?S2" />
+            </ConstantFormalParametersSubList>
+            <MultiVariableCondition>
+              <AbstractFactsLinks />
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S1" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+              <ParameterClassicPVSDomain>
+                <FormalParameterReference name="?S2" />
+                <LowerBound>
+                  <AnyStringBound />
+                </LowerBound>
+                <UpperBound>
+                  <AnyStringBound />
+                </UpperBound>
+              </ParameterClassicPVSDomain>
+            </MultiVariableCondition>
+          </MainCondition>
+          <ExceptWhenConditions />
+        </PVSCondition>
+        <LearnableConditionExamples lastRuleExampleIndex="1">
+          <ConditionGeneralizedExamplesList>
+            <ConditionGeneralizedExample index="1" type="1" noOfPositiveExamples="1" noOfNegativeExamples="0">
+              <ConstantInstantiatedFormalParameters>
+                <FormalParameterReference name="?S1" />
+                <OntologyString>intelnetservice.com</OntologyString>
+                <FormalParameterReference name="?S2" />
+                <OntologyString>01/02/2020 01:23:45 AM</OntologyString>
               </ConstantInstantiatedFormalParameters>
             </ConditionGeneralizedExample>
           </ConditionGeneralizedExamplesList>
